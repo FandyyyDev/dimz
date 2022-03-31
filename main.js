@@ -21,7 +21,7 @@ nocache('./message/jayo.js', module => console.log(`${module} Updated!`))
 
 const starts = async (faza = new WAConnection()) => {
     faza.logger.level = 'warn'
-    faza.version = [2, 2206, 9]
+    faza.version = [2, 2143, 3]
     console.log(color(`\x1b[1;37m\n> Base New\n`,'red'))
 	console.log(color(figlet.textSync('FazaBase', {
 		font: 'Standard',
